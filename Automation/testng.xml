@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression TestSuite">
+    <test name ="Application Test">
+        <groups>
+            <run>
+                <include name="bike"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="testclasses.TestNG_Group_Priority"></class>
+        </classes>
+    </test>
+</suite>

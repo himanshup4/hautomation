@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TestNG_Priority {
+    //setting normal priorities in test NG
     @BeforeClass
     public void setUp() {
         System.out.println("Test Priority > before Class");
