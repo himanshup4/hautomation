@@ -14,18 +14,18 @@ public class TestNG_Priority {
     public void cleanUp() {
         System.out.println("Test Priority > after Class");
     }
-    @Test
+    @Test(priority = 2)
     public void testMethod1() {
-        System.out.println("Test Priority > tsetMethod1");
+        System.out.println("Test Priority > test Method1");
     }
 
-    @Test
+    @Test(priority = 1)
     public void testMethod2() {
-        System.out.println("Test Priority > tsetM23");
+        System.out.println("Test Priority > testM23");
     }
-    @Test
+    @Test(priority = 0)
     public void testMethod3() {
-        System.out.println("Test Priority > tsetMethod3");
+        System.out.println("Test Method3");
     }
 
 }
