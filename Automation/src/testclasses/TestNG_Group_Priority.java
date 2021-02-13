@@ -11,12 +11,12 @@ public class TestNG_Group_Priority {
         System.out.println("Test Priority > before Class");
     }
 
-    @Test(groups = {"cars", "bmw"})
+    @Test(groups = {"cars", "bmw"}, priority = 0)
     public void testBMW() {
         System.out.println("Running BMW test case");
     }
 
-    @Test(groups = {"cars", "sedan"})
+    @Test(groups = {"cars", "sedan"},priority = 1)
     public void testAudi() {
         System.out.println("Running Audi test case");
     }
