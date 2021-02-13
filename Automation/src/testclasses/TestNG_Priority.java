@@ -21,7 +21,7 @@ public class TestNG_Priority {
 
     @Test
     public void testMethod2() {
-        System.out.println("Test Priority > tsetMethod2");
+        System.out.println("Test Priority > tsetM23");
     }
     @Test
     public void testMethod3() {
